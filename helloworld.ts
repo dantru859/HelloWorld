@@ -1,10 +1,7 @@
 class HelloWorld {
 
-    firstName: string;
-    lastName : string;
-    constructor(Daniel: string, Trujillo: string) {
-        this.firstName = Daniel;
-        this.lastName = Trujillo;    
+    constructor(public firstName: string, public lastName: string) {
+        
     }
 
     sayHello() {

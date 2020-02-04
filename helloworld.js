@@ -1,7 +1,7 @@
 var HelloWorld = (function () {
-    function HelloWorld(Daniel, Trujillo) {
-        this.firstName = Daniel;
-        this.lastName = Trujillo;
+    function HelloWorld(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
     HelloWorld.prototype.sayHello = function () {
         console.log('Hello World!' + ' My name is ' + this.firstName + ' ' + this.lastName + '.');
